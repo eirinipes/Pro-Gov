@@ -14,7 +14,10 @@ public class Trial {
             b[i] = arith;
         }
         for (int i=0; i < b.length; i++) {
+            System.out.println("Εμφάνιση στοιχείων ");
             System.out.println(a[i] + " : " + b[i]);
         }
     }
+
+    
 }
