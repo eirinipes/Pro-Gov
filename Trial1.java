@@ -8,7 +8,15 @@ public class Trial1  {
         "Επιχορηγήσεις σε ΟΤΑ", "Επιχορηγήσεις σε νοσοκομεία/πανεπιστήμια", "Επιδοτήσεις επιχειρήσεων", "Εξυπηρέτηση δημόσιου χρέους (τόκοι)", "Αποπληρωμή χρεολυσίων"};
         int[] val2 = new int[2];
         Trial.budgetItem(cat2, val2);
-
+        int sum1 = 0;
+        int sum2 = 0;
+        for (int i = 0; i < 20; i++ ) {
+            sum1 = sum1 + values1[i];
+            sum2 = sum2 + val2[i];
+        }
+        System.out.println("Έσοδα = " + sum1);
+        System.out.println("Έξοδα = " + sum2);
+        
         Scanner sc = new Scanner(System.in);
 
         do { 
