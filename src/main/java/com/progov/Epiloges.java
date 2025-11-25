@@ -14,7 +14,7 @@ public class Epiloges {
     }
 
     public static void changesMain(String[] a, int[] b) {
-        System.out.println("\nΣε ποια απο τις κατηγορίεσ θα ήθελες να αλλάξεις τιμή;");
+        System.out.println("\nΣε ποια απο τις κατηγορίες θα ήθελες να αλλάξεις τιμή;");
         for (String t : a ) {
             System.out.println(t);
         }
