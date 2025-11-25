@@ -12,7 +12,7 @@ public class CheckVariables {
             if (y >= 0) {
                 flag = true;
             } else {
-                System.out.println("Δώσε ΘΕΤΙΚΟ αριθμό!");
+                System.out.println("\nΔώσε ΘΕΤΙΚΟ αριθμό!");
             }
             
         } while (flag == false);
@@ -29,7 +29,7 @@ public class CheckVariables {
             if (y >= 0 && y < 3) {
                 flag = true;
             } else {
-                System.out.println("Δώσε 0,1 ή 2"); /* οταν μεγαλωσει το μενου επιλογων θα αλλαξουν και τα ορια!!! */
+                System.out.println("\nΔώσε 0,1 ή 2"); /* οταν μεγαλωσει το μενου επιλογων θα αλλαξουν και τα ορια!!! */
             }
             
         } while (flag == false);
@@ -46,7 +46,7 @@ public class CheckVariables {
             if (y > 0 && y < 21) {
                 flag = true;
             } else {
-                System.out.println("Δώσε αριθμό από 1 εώς 20!"); /* οταν μεγαλωσει το μενου επιλογων θα αλλαξουν και τα ορια!!! */
+                System.out.println("\nΔώσε αριθμό από 1 εώς 20!"); /* οταν μεγαλωσει το μενου επιλογων θα αλλαξουν και τα ορια!!! */
             }
             
         } while (flag == false);
@@ -62,7 +62,7 @@ public class CheckVariables {
             if (y == 1 || y == 2) {
                 flag = true;
             } else {
-                System.out.println("Δώσε 1 ή 2"); /* οταν μεγαλωσει το μενου επιλογων θα αλλαξουν και τα ορια!!! */
+                System.out.println("\nΔώσε 1 ή 2"); /* οταν μεγαλωσει το μενου επιλογων θα αλλαξουν και τα ορια!!! */
             }
             
         } while (flag == false);

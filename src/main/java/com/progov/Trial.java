@@ -12,7 +12,7 @@ public class Trial {
             int arith = CheckVariables.checkingV();
             b[i] = arith;
         }
-        System.out.println("Εμφάνιση στοιχείων ");
+        System.out.println("\nΕμφάνιση στοιχείων ");
         for (int i=0; i < b.length; i++) {
             
             System.out.println(a[i] + " : " + b[i]);  /* Η εμφάνιση των στοιχείων με πίνακες */
