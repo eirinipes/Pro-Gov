@@ -1,5 +1,4 @@
-
-import java.util.Scanner;
+package com.progov;
 
 public class Epiloges {
    

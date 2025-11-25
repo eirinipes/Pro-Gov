@@ -1,3 +1,4 @@
+package com.progov;
 import java.util.Scanner;
 
 public class CheckVariables {
@@ -7,7 +8,7 @@ public class CheckVariables {
         int y = 0;
 
         do { 
-            y = in.nextInt();
+            y = in.nextInt(); /* έλεγχοι μεταβλητών */
             if (y >= 0) {
                 flag = true;
             } else {

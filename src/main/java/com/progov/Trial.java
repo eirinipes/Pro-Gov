@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.progov;
 
 public class Trial {
     public static void greet() {
@@ -15,7 +15,7 @@ public class Trial {
         System.out.println("Εμφάνιση στοιχείων ");
         for (int i=0; i < b.length; i++) {
             
-            System.out.println(a[i] + " : " + b[i]);
+            System.out.println(a[i] + " : " + b[i]);  /* Η εμφάνιση των στοιχείων με πίνακες */
         }
     }
 

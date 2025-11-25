@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.progov;
 
 public class Trial1  {
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class Trial1  {
                 Epiloges.changeBudget(category1, values1, cat2, val2);
             } else {
                 x = 1;
-                System.out.println("Τερματισμός Προγράμματος");
+                System.out.println("Τερματισμός Προγράμματος"); /* θα γινει φυλλο sql για σύγκριση περσινού κρατικού υπολογισμού με τισ ιδιεσ κατηγοριες */
             }
         
         } while (x == 0);
