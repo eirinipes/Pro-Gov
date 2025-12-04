@@ -20,7 +20,7 @@ public class Main {
                     ministerMenu(sc);
                     break;
                 case 0:
-                    System.out.println("Έξοδος από το πρόγραμμα...")΄
+                    System.out.println("Έξοδος από το πρόγραμμα...");
                     break;
                 default:
                     System.out.println("Λάθος επιλογή");       
