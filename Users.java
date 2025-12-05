@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void Users(String[] args) {
         Scanner sc = new Scanner(System.in);
         int role;
 
@@ -37,6 +37,19 @@ public class Main {
             System.out.println("2.Σύγκριση με Παλαιότερα Δεδομένα");
             System.out.println("0.Έξοδος");
 
-        }
+            choice = sc.nextInt();
+            
+            if (choice == 1) {
+                Epiloges.getBudget(Main.category1, Main.values1, Main.cat2, Main.val2);
+            } else if (choice == 2) {
+                // ΣΥΓΚΡΙΣΗ
+            } else if (choice == 0) {
+                System.out.println("Έξοδος από το μενού Πολίτη...");
+            } else {
+                System.out.println("Λάθος επιλογή.");
+            }
+
+
+        } while (choice != 0);
     }
 }
