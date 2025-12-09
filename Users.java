@@ -29,6 +29,7 @@ public class Users {
     
             }
         } while (role != 0);
+        sc.close();
     }
 
     public static void citizenMenu(Scanner sc) {
@@ -55,4 +56,5 @@ public class Users {
         } while (choice != 0);
     }
 }
+
 
