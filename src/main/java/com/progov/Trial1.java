@@ -31,7 +31,9 @@ public class Trial1  {
                 case 2 -> Epiloges.changeBudget(category1, values1, cat2, val2);
                 default -> {
                     x = 1;
-                    System.out.println("\nΤερματισμός Προγράμματος"); /* θα γινει φυλλο sql για σύγκριση περσινού κρατικού υπολογισμού με τισ ιδιεσ κατηγοριες */
+                    System.out.println("\nΤερματισμός Προγράμματος"); 
+                    Diagram.diagramm1(category1, values1);
+                    Diagram.diagramm2(cat2, val2);
                 }
             }
         
