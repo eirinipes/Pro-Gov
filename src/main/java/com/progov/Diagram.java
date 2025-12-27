@@ -33,7 +33,7 @@ public class Diagram {
         JFreeChart chart = ChartFactory.createBarChart(
                 "Έξοδα Κρατικού Προϋπολογισμού Ελλάδας (2025)",
                 "Κατηγορία",
-                "Δισ. €",
+                "€",
                 dataset
         );
 
