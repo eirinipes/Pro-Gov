@@ -1,12 +1,9 @@
-# Maven / Java
+# Maven
 target/
-*.class
 
-# OS
+# macOS
 .DS_Store
 
-# VS Code (προαιρετικό)
+# VS Code
 .vscode/
-
-# VS Code Counter (προαιρετικό)
 .VSCodeCounter/
